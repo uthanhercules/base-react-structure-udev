@@ -1,0 +1,25 @@
+{
+  "name": "cra-template-udev",
+  "version": "1.2.0",
+  "author": {
+    "name": "Uthan Hercules",
+    "url": "https://github.com/uthanhercules/"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "u.dev_ base react app files.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
