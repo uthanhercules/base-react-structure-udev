@@ -8,7 +8,8 @@ import {
   Navigate,
 } from 'react-router-dom';
 
-import Home from './views/Home';
+import Home from './views/Home/home';
+import Features from './views/Features/features';
 
 const ProtectedRoutes = ({ routePath }: IProtectedRoutes) => {
   const isAuth: boolean = true; // Protection Function here
@@ -23,6 +24,8 @@ const RouterOutlet = () => {
           <Route element={<Home />} path='/' />
           <Route element={<Home />} path='/home' />
         </Route>
+
+        <Route element={<Features />} path='/features' />
 
         <Route element={<ProtectedRoutes routePath='/' />}>
           {/* Protected Routes */}

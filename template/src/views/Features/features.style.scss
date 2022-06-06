@@ -1,7 +1,7 @@
-@import '../../styles/variables';
 @import '../../styles/mixins';
+@import '../../styles/variables';
 
-.Home {
+.Features {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,7 @@
     color: $udev-blue;
   }
 
-  button {
-    margin-top: rem(16px);
+  ul {
+    margin: rem(16px) 0;
   }
 }
